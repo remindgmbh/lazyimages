@@ -1,0 +1,18 @@
+### IDE ###
+nbproject/
+.vscode/
+.idea/
+
+### Node ###
+node_modules/
+
+### Testing ###
+coverage/
+test-results.xml
+
+### Development ###
+.editorconfig
+test/
+
+### GitHub ###
+.github/

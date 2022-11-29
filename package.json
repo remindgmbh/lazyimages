@@ -1,0 +1,41 @@
+{
+  "name": "@remindgmbh/lazyimages",
+  "version": "1.0.0",
+  "description": "Lazy loading for images",
+  "keywords": [
+    "observer",
+    "lazyloading",
+    "images"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remindgmbh/lazyimages.git"
+  },
+  "author": "Michael Didion <m.didion@remind.de>",
+  "maintainers": [
+    "Hauke Schulz <h.schulz@remind.de>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "chai": "^4.3.6",
+    "eslint": "8.28.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.0.2",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.8.1"
+  }
+}
